@@ -11,3 +11,6 @@ folium
 streamlit-folium
 matplotlib
 ipykernel
+seaborn
+
+-e.
