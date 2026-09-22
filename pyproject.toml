@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geotherm-ai"
+version = "0.1.0"
+description = "Prototype for AI-based industrial thermal anomaly detection and geospatial monitoring."
+requires-python = ">=3.12,<3.14"
+
+dependencies = [
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "lightgbm",
+    "geopandas",
+    "shapely",
+    "requests",
+    "python-dotenv",
+    "streamlit",
+    "folium",
+    "streamlit-folium",
+    "matplotlib",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]

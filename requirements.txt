@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+lightgbm
+geopandas
+shapely
+requests
+python-dotenv
+streamlit
+folium
+streamlit-folium
+matplotlib
+ipykernel
